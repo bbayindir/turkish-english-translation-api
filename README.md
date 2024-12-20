@@ -15,7 +15,7 @@ To get this project up and running on your local machine, you will need:
 
 ## Installation:
 
-Follow the steps below to set up the Project on Windows:
+Follow the steps below to set up the Project on Windows CMD:
 
 1. **Clone the repository:**
 
@@ -54,7 +54,7 @@ Follow the steps below to set up the Project on Windows:
 6. **Access the Swagger UI:**
    Once the application is running, you can access the Swagger UI to test the API and view the documentation at:
    ```bash
-   http://localhost:5000/swagger/
+   http://localhost:5000
    ```
 7. **Testing the API:**
   To test the /translate endpoint, you can use Swagger UI, or simply make a GET request to:
