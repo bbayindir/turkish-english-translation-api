@@ -59,5 +59,5 @@ Follow these steps to set up the project:
 7. **Testing the API:**
   To test the /translate endpoint, you can use Swagger UI, or simply make a GET request to:
    ```bash
-   [http://localhost:5000/swagger/](http://localhost:5000/translate
+   http://localhost:5000/translate
    ```
