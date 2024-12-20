@@ -3,7 +3,7 @@
 This project is a simple API that fetches a word from the Turkish Language Association (TDK), translates it into English using Google Translator, and returns both the Turkish word and its English translation.
 
 ## Features:
-- Fetches a word from TDK API under the "Bir Kelime" heading.
+- Fetches a word from TDK API under the "Bri Kelime" heading.
 - Translates the word from Turkish to English.
 - Provides Swagger UI for API documentation.
 
@@ -23,19 +23,18 @@ Follow these steps to set up the project:
 
    ```bash
    git clone https://github.com/your-username/turkish-english-translation-api.git
-
-2. **Navigate to the project directory:**
+Navigate to the project directory:
 
 Change your directory to the project folder:
 
-```bash
+bash
 Copy code
 cd turkish-english-translation-api
 Create and activate a virtual environment (optional but recommended):
 
-3. **It's good practice to use a virtual environment to manage project dependencies:**
+It's good practice to use a virtual environment to manage project dependencies:
 
-```bash
+bash
 Copy code
 python -m venv venv
 On Windows:
