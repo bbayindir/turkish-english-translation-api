@@ -61,3 +61,6 @@ Follow the steps below to set up the Project on Windows CMD:
    ```bash
    http://localhost:5000/translate
    ```
+
+   ![image](https://github.com/user-attachments/assets/cdca39b5-21e7-4c9c-abc6-732e209c5907)
+
