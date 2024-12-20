@@ -33,6 +33,8 @@ Follow these steps to set up the project:
    It's good practice to use a virtual environment to manage project dependencies:
    ```bash
    python -m venv venv
+   ```
+   ```bash
    source venv/bin/activate
    ```
 4. **Install dependencies:**
