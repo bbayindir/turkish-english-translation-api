@@ -5,7 +5,7 @@ This project is a simple API that fetches a word (**Bir Kelime**) from the Turki
    ![image](https://github.com/user-attachments/assets/cdca39b5-21e7-4c9c-abc6-732e209c5907)
 
 ## Features:
-- Fetches a word from TDK API under the "Bri Kelime" heading.
+- Fetches a word from TDK API under the "Bir Kelime" heading.
 - Translates the word from Turkish to English.
 - Provides Swagger UI for API documentation.
 
