@@ -44,10 +44,6 @@ Follow the steps below to set up the Project on Windows CMD:
    ```bash
    pip install -r requirements.txt
    ```
-   If you don't have a requirements.txt file, you can manually install the necessary packages:
-    ```bash
-   pip install flask flask-restx requests deep-translator
-   ```
 5. **Run the application:**
    Once the dependencies are installed, you can run the application using the following command:
    ```bash
