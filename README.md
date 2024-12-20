@@ -2,6 +2,8 @@
 
 This project is a simple API that fetches a word (**Bir Kelime**) from the Turkish Language Association (TDK), translates it into English using Google Translator, and returns both the Turkish word and its English translation.
 
+   ![image](https://github.com/user-attachments/assets/cdca39b5-21e7-4c9c-abc6-732e209c5907)
+
 ## Features:
 - Fetches a word from TDK API under the "Bri Kelime" heading.
 - Translates the word from Turkish to English.
@@ -61,6 +63,4 @@ Follow the steps below to set up the Project on Windows CMD:
    ```bash
    http://localhost:5000/translate
    ```
-
-   ![image](https://github.com/user-attachments/assets/cdca39b5-21e7-4c9c-abc6-732e209c5907)
 
