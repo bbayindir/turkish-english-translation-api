@@ -1,6 +1,6 @@
 # Turkish-English Translation API with TDK Integration
 
-This project is a simple API that fetches a word from the Turkish Language Association (TDK), translates it into English using Google Translator, and returns both the Turkish word and its English translation.
+This project is a simple API that fetches a word (**Bir Kelime**) from the Turkish Language Association (TDK), translates it into English using Google Translator, and returns both the Turkish word and its English translation.
 
 ## Features:
 - Fetches a word from TDK API under the "Bri Kelime" heading.
