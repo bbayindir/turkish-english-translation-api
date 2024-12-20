@@ -23,3 +23,10 @@ Follow these steps to set up the project:
 
    ```bash
    git clone https://github.com/your-username/turkish-english-translation-api.git
+   ```
+
+2. **Navigate to the project directory:**
+   Change your directory to the project folder:
+   ```bash
+        cd turkish-english-translation-api
+    ```
