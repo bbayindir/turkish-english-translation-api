@@ -24,11 +24,11 @@ Follow these steps to set up the project:
    ```bash
    git clone https://github.com/your-username/turkish-english-translation-api.git
 
-Navigate to the project directory:
+2. **Navigate to the project directory:**
 
 Change your directory to the project folder:
 
-bash
+```bash
 Copy code
 cd turkish-english-translation-api
 Create and activate a virtual environment (optional but recommended):
