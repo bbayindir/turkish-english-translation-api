@@ -1,83 +1,73 @@
+Markdown
+
 # Turkish-English Translation API with TDK Integration
 
-This project is a simple API that fetches a word from the Turkish Language Association (TDK), translates it into English using Google Translator, and returns both the Turkish word and its English translation.
+Bu proje, Türk Dil Kurumu'ndan (TDK) bir kelime çeken, Google Çeviri kullanarak İngilizce'ye çeviren ve hem Türkçe kelimeyi hem de İngilizce çevirisini döndüren basit bir API'dir.
 
-## Features:
-- Fetches a word from TDK API under the "Bri Kelime" heading.
-- Translates the word from Turkish to English.
-- Provides Swagger UI for API documentation.
+## Özellikler
 
-## Requirements:
-To get this project up and running on your local machine, you will need:
+*   TDK API'sinden "Bir Kelime" başlığı altından bir kelime çeker.
+*   Kelimeyi Türkçeden İngilizceye çevirir.
+*   API dokümantasyonu için Swagger UI sağlar.
 
-- Python 3.6+
-- `pip` (Python package manager)
+## Gereksinimler
 
-## Installation:
+Bu projeyi yerel makinenizde çalıştırmak için şunlara ihtiyacınız olacak:
 
-Follow these steps to set up the project:
+*   Python 3.6+
+*   `pip` (Python paket yöneticisi)
 
-1. **Clone the repository:**
+## Kurulum
 
-   Open your terminal or command prompt and run the following command to clone the repository to your local machine:
+**1. Depoyu klonlayın**
 
-   ```bash
-   git clone https://github.com/your-username/turkish-english-translation-api.git
-Navigate to the project directory:
+Terminalinizi veya komut isteminizi açın ve depoyu yerel makinenize klonlamak için aşağıdaki komutu çalıştırın:
 
-Change your directory to the project folder:
+```bash
+git clone [https://github.com/your-username/turkish-english-translation-api.git](https://github.com/your-username/turkish-english-translation-api.git)
+2. Sanal bir ortam oluşturun ve etkinleştirin (isteğe bağlı ancak önerilir)
 
-bash
-Copy code
-cd turkish-english-translation-api
-Create and activate a virtual environment (optional but recommended):
+Proje bağımlılıklarını yönetmek için sanal bir ortam kullanmak iyi bir uygulamadır. İşte nasıl oluşturulacağı ve etkinleştirileceği:
 
-It's good practice to use a virtual environment to manage project dependencies:
+macOS/Linux'ta:
 
-bash
-Copy code
+Bash
+
 python -m venv venv
-On Windows:
-
-bash
-Copy code
-venv\Scripts\activate
-On macOS/Linux:
-
-bash
-Copy code
 source venv/bin/activate
-Install dependencies:
+Windows'ta:
 
-Install the required dependencies using pip:
+Bash
 
-bash
-Copy code
+python -m venv venv
+venv\Scripts\activate
+3. Bağımlılıkları yükleyin
+
+Gerekli bağımlılıkları pip kullanarak yükleyin:
+
+Bash
+
 pip install -r requirements.txt
-If you don't have a requirements.txt file, you can manually install the necessary packages:
+Bir requirements.txt dosyanız yoksa, gerekli paketleri manuel olarak yükleyebilirsiniz:
 
-bash
-Copy code
+Bash
+
 pip install flask flask-restx requests deep-translator
-Run the application:
+4. Uygulamayı çalıştırın
 
-Once the dependencies are installed, you can run the application using the following command:
+Bağımlılıklar yüklendikten sonra, uygulamayı aşağıdaki komutu kullanarak çalıştırabilirsiniz:
 
-bash
-Copy code
+Bash
+
 python app.py
-Access the Swagger UI:
+5. Swagger UI'ye erişin
 
-Once the application is running, you can access the Swagger UI to test the API and view the documentation at:
+Uygulama çalıştıktan sonra, API'yi test etmek ve dokümantasyonu görüntülemek için şu adresten Swagger UI'ye erişebilirsiniz:
 
-bash
-Copy code
 http://localhost:5000/swagger/
-Testing the API:
+6. API'yi test etme
 
-To test the /translate endpoint, you can use Swagger UI, or simply make a GET request to:
+/translate uç noktasını test etmek için Swagger UI'yi kullanabilir veya basitçe şu adrese bir GET isteği gönderebilirsiniz:
 
-bash
-Copy code
 http://localhost:5000/translate
-The response will contain a random Turkish word fetched from TDK along with its English translation.
+Yanıt, TDK'dan çekilen rastgele bir Türkçe kelimeyi ve İngilizce çevirisini içerecektir.
