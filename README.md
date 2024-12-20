@@ -33,9 +33,9 @@ Copy code
 cd turkish-english-translation-api
 Create and activate a virtual environment (optional but recommended):
 
-It's good practice to use a virtual environment to manage project dependencies:
+3. **It's good practice to use a virtual environment to manage project dependencies:**
 
-bash
+```bash
 Copy code
 python -m venv venv
 On Windows:
