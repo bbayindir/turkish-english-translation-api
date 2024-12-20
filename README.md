@@ -15,7 +15,7 @@ To get this project up and running on your local machine, you will need:
 
 ## Installation:
 
-Follow these steps to set up the project:
+Follow the steps below to set up the Project on Windows:
 
 1. **Clone the repository:**
 
@@ -35,7 +35,7 @@ Follow these steps to set up the project:
    python -m venv venv
    ```
    ```bash
-   source venv/bin/activate
+   venv/bin/activate
    ```
 4. **Install dependencies:**
    Install the required dependencies using pip:
