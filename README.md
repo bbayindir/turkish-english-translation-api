@@ -37,7 +37,7 @@ Follow the steps below to set up the Project on Windows CMD:
    python -m venv venv
    ```
    ```bash
-   venv/bin/activate
+   venv\Scripts\activate
    ```
 4. **Install dependencies:**
    Install the required dependencies using pip:
