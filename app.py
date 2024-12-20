@@ -61,7 +61,7 @@ class Translate(Resource):
         return jsonify({
             "turkish": tdk_word,
             "english": english_translation
-        },ensure_ascii=False)
+        })
 
 # Run the Flask app
 if __name__ == '__main__':
