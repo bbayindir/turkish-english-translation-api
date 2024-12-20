@@ -22,7 +22,7 @@ Follow these steps to set up the project:
    Open your terminal or command prompt and run the following command to clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/turkish-english-translation-api.git
+   git clone https://github.com/bbayindir/turkish-english-translation-api.git
    ```
 2. **Navigate to the project directory:**
    Change your directory to the project folder:
